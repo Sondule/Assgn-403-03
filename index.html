@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="table">
+           <div class="heading">
+            <h1>Charles' Tip Calculator</h1>
+           </div>
+           <hr>
+          <div class="billAmount">
+            <label>How much was Your Bill</label><br>
+            <label>$</label><input type="number" name="" id="amount">
+          </div>
+           <div class="selectDiscount">
+            <label>How was your servies?</label><br>
+            <select name="discount" id="discount">
+
+                <option class="optionClass" value="">-- Choose am option--</option>
+                <option class="optionClass" value="30">30%-Outstanding</option>
+                <option class="optionClass" value="20">20%-Good</option>
+                <option class="optionClass" value="15">15%-Its was ok</option>
+                <option class="optionClass" value="10">10%-Bad</option>
+                <option class="optionClass" value="5">5%-Terrible</option>
+            </select>
+           </div>
+            <div class="howPepoles">
+                <label>How many pepole were sharing the bill?</label>
+            <input type="number" name="" id="pepole"><label>pepole</label>
+            </div>
+            <button onclick="calculate()">Calculate!</button>
+            <div id="outputdiv"></div>
+
+
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

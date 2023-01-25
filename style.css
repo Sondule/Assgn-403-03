@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maindiv{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(veg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table{
+    /* border: 2px solid green; */
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 2.3rem;
+    box-shadow: 5px 5px 20px black;
+}
+ label{
+    padding-left: .5rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: #6c2726;
+
+}
+.heading{
+    /* border: 2px solid blue; */
+    height:15% ;
+    width:80%;
+    text-align: center;
+    color: #6c2726;
+    font-size: 1.1rem;
+
+}
+hr{
+    width: 90%;
+    box-shadow: .5px .5px 2px black;
+}
+.billAmount{
+    /* border: 2px solid blue; */
+    height:13% ;
+    width:80%;
+
+}
+ input{
+    margin: .5rem;
+    width: 50%;
+    height: 50%;
+    font-size: 1.3rem;
+}
+.selectDiscount{
+    /* border: 2px solid blue; */
+    height:13% ;
+    width:80%;
+
+}
+.selectDiscount select{
+    margin: .5rem;
+    width: 60%;
+    height: 50%;
+    font-size: 1.1rem;
+}
+.optionClass{
+    border-radius: 40px;
+}
+.howPepoles{
+    /* border: 2px solid blue; */
+    height:13% ;
+    width:94%;
+   
+}
+button{
+    /* border: 2px solid red; */
+    height: 15%;
+    width: 90%;
+    font-size: 2.5rem;
+    font-weight: 550;
+    background-color: #6c2726;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 5px black;
+}
+#outputdiv{
+    /* border: 2px solid blue; */
+    height: 20%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    color: #6c2726;
+}
+#outputdiv h1{
+    font-size: 1.8rem;
+}
